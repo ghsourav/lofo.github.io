@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.HeaderBlock{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../Images/sports-car-2651393_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.HeaderBlock header{
+    position: fixed;
+    opacity: 0.9;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.288);
+    width: 100%;
+    height: 45px;
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.HeaderBlock header,.menu{
+    display: flex;
+}
+.menu{
+    padding-left: 10%;
+    width: 100%;
+    height: 40px;
+    color: ivory;
+}
+.menu ,.nav li a {
+    color: ivory;
+    
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.nav li {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+    
+}
+.nav li:hover{
+    background: linear-gradient(to right,blue,red);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.logo{
+    padding: 5px;
+}
+.HeaderBlock main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    position: sticky;
+    text-align: center;
+}
+.HeaderBlock main article h1{
+    font-weight: 800;
+    font-size: 40px;
+    color: honeydew;
+    text-shadow: 1px 1px 1px ;
+    animation-name: w1;
+  animation-duration: 4s;
+  }
+
+@keyframes w1{
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+}
+.HeaderBlock main article p{
+    font-weight: 500;
+    font-size: 10px;
+    color: honeydew;
+    animation-name: w2;
+    
+    animation-duration: 8s;
+   
+}
+
+@keyframes w2{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.HeaderBlock main article button{
+    color: honeydew;
+    background: linear-gradient(to right,purple,orange);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    animation-name: w3;
+    animation-duration: 12s;
+    
+
+}
+@keyframes w3{
+    from{opacity: 0;}
+    to{opacity: 0.8;}
+}
+.HeaderBlock main article button:hover{
+    background: linear-gradient(to right,blue,red);
+}
+.about{
+    height: 390px;
+    width: 100%;
+    background: linear-gradient(to right,orange,tomato)
+    
+}
+.about header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.about main{
+    display: flex;
+}
+.info{
+    width: 50%;
+    height: 290px;
+    animation-name: aa1;
+    animation-duration: 14s;
+}
+.infoadd1{
+    background: url('../Images/carshowroom.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation-name: aa1;
+    animation-duration: 12s;
+    opacity: 0.6;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(196, 196, 17, 0.479);
+
+}
+
+@keyframes aa1{
+    from{opacity: 0;}
+    to{opacity: 0.6;}
+}
+
+.service{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right,#12c2e9,#c471ed,#f64f59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.service div{
+    width: 20%;
+    min-height: 300px;
+    max-height: auto;
+    margin: 9px;
+    border-radius: 10px;
+    color: beige;
+    padding: 0px 16px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px;
+    animation-name: sdiv;
+    animation-duration: 12s;
+    animation-delay: 6s;
+}
+@keyframes sdiv{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+    }
+}
+.service div i{
+    font-size: 32px;
+    /* padding: 6px 0px 0px 0px; */
+    padding-top: 6px;
+}
+}
+.service div p{
+    font-weight: 100;
+    font-size: 16px;
+}
+.service div h3{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+#service1:hover{
+     background:linear-gradient(to right, #1565C0, rgba(117, 19, 93, 0.73)),
+     url('../Images/auto-repair-3691962_1280.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+#service2:hover{
+    background:linear-gradient(to right, #1565C0, rgba(117, 19, 93, 0.73)),
+    url('../Images/girl-346231_1280.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+#service3:hover{
+    background:linear-gradient(to right, #1565C0, rgba(117, 19, 93, 0.73)),
+    url('../Images/auto-repair-3691962_1280.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+#service4:hover{
+    background:linear-gradient(to right, #1565C0, rgba(117, 19, 93, 0.73)),
+    url('../Images/auto-repair-3691962_1280.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+.gallary{
+width: 100%;
+height: auto;
+padding: 25px;
+}
+.gallary article h1,.offer article h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: gray;
+    
+}
+.gallary main,.offer main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.gallary-img{
+    padding: 0 20px 20px;
+
+}
+#ga1
+{
+animation-name: g1;
+animation-delay: 10s;
+animation-duration: 5s;
+}
+@keyframes g1{
+    from{opacity: 0;}
+    ro{opacity: 1;}
+}
+#ga2
+{
+animation-name: g2;
+animation-delay: 10s;
+animation-duration: 6s;
+}
+@keyframes g2{
+    from{opacity: 0;}
+    ro{opacity: 1;}
+}
+.gimg,.gimg1{
+    width: 350px;
+    height: 300px;
+
+}
+.gimg:hover{
+    opacity: 0.5;
+    transition: .9s;
+}
+.gimg1:hover{
+ zoom: 150%;
+ opacity: 0.6;
+ transition: 0.5s;
+ box-shadow: 3px 3px 3px 3px grey;
+ 
+
+ 
+}
+.offer{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right,#F3F9A7,#D3CCE3,#E9E4F0);
+    padding: 15px;
+
+}
+.offer article h1{
+    color: gray;
+    padding: 15px;
+}
+.contact{
+    height: auto;
+   
+    width: 100%;
+    background:linear-gradient(to right, #1565C0, rgba(184, 15, 65, 0.73)),
+    url('../Images/s3-news-tmp-118890-car_showroom_--2x1--940.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact main div{
+    width: 500px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.144);
+    margin: 10px;
+    color: #fff;
+    padding: 15px;
+
+}
+.btn{
+    background: linear-gradient(to right,purple,orange);
+    border: none;
+    height: 30px !important;
+    width: 72px !important;
+    margin: 15px 13px !important;
+}
+.contact main div input,textarea{
+    display: block;
+    padding: 5px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 20px;
+}
+.contact main div textarea{
+        /* color: blue; */
+        height: 170px;
+}
+.contact main div address{
+    border: 1px solid #fff;
+    padding: 48px 40px;
+}
+.contact main div address h5{
+    background: linear-gradient(45deg, purple,purple,orange, transparent);
+    padding: 4px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.contact main  div address h5 i{
+    color: orange;
+    font-size: 23px;
+    padding: 2px 15px;
+}
+.contact main div address p{
+    color: azure;
+    padding: 1px 12px;
+}
+.contact article h1{
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    background: black;
+}
+
+
+
+
+
