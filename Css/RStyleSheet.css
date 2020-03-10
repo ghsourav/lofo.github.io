@@ -166,11 +166,12 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
     justify-content: center;
     align-items: center;
     padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .service div{
-    width: 20%;
-    min-height: 300px;
-    max-height: auto;
+    width: 200px;
+    height: 300px;
     margin: 9px;
     border-radius: 10px;
     color: beige;
@@ -375,6 +376,9 @@ animation-duration: 6s;
     height: 80px;
     width: 100%;
     background: black;
+    text-align: center;
+    color: #fff;
+    
 }
 
 
